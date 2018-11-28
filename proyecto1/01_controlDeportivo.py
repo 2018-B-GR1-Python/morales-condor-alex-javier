@@ -73,15 +73,6 @@ while not salir:
     elif opcion == 2:
         print("Crear un nuevo registro")
         registro = input("Ingrese un nuevo registro\n")
-        #id = int(input("ID: "))
-        #nombre = input("Nombre: ")
-        #edad = int(input("Edad: "))
-        #sexo = input("Sexo: ")
-        #estatura = input("Estatura: ")
-        #peso = input("Peso(kg): ")
-        #distancia = input("Distancia(km): ")
-        #pb = input("Mejor marca personal: ")
-        #registro = id + nombre + edad + sexo + estatura + peso + distancia + pb
         agregar_a_archivo('./registros.txt', registro)
         #5  Victor Morales  61  M   1.74    68  10  58'45''
         print("\n")
@@ -91,14 +82,6 @@ while not salir:
         leer_archivo('./registros.txt')
         print("\n")
         #id = int(input("Ingrese la ID del registro a modificar: "))
-        """dato = input("\nEscoja el dato a modificar\n"
-                     "2. Nombre\n"
-                     "3. Edad\n"
-                     "4. Sexo\n"
-                     "5. Estatura\n"
-                     "6. Peso(kg)\n"
-                     "7. Distancia\n"
-                     "8. Marca Personal\n")"""
         #nuevo_dato = int(input(f"Modifique el registro\n"))
         modificar_dato('./registros.txt', [4], 2, '28')
         print("Dato modificado")

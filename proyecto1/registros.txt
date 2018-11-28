@@ -3,3 +3,5 @@ ID	Nombre	Edad	Sexo	Estatura	Peso(kg)	Distancia (km)	PB
 2	Ernesto Narvaez	35	M	1.68	65	21	45'27''
 3	Ivonne Zapata	25	F	1.60	68	10	62'15''
 4	Giss Ramirez	28	F	1.60	70	15	1 15'42''
+
+5  Victor Morales  61  M   1.74    68  10  58'45''
